@@ -11,11 +11,18 @@ This project analyzes **layoff trends from 2020-2023**, providing insights into 
 - ✅ Predictive modeling using Machine Learning  
 
 ### **Project Structure**  
-/layoff_analysis_project │── layoffs_data.csv # Dataset │── main.py # Main execution script │── data_collection.py # Load dataset │── data_cleaning.py # Data preprocessing functions │── eda.py # EDA and visualizations │── detailed_analysis.py # Monthly layoffs analysis │── predictive_modeling.py # ML model training & predictions │── structure.py # Structure of the data and functions │── README.md
 
-bash
-Copy
-Edit
+/layoff_analysis_project
+│── layoffs_data.csv # Dataset
+│── main.py # Main execution script
+│── data_collection.py # Load dataset
+│── data_cleaning.py # Data preprocessing functions
+│── eda.py # EDA and visualizations
+│── detailed_analysis.py # Monthly layoffs analysis
+│── predictive_modeling.py # ML model training & predictions
+│── structure.py # Structure of the data and functions
+│── README.md # Project documentation
+
 
 ### **Installation & Setup**  
 1. Clone the repository:  
@@ -32,14 +39,24 @@ Edit
    ```bash
    python main.py
 
-### **Functions & Workflow**
-Data Collection: Loads layoffs_data.csv.
-Data Cleaning: Handles missing values and formats data.
-EDA:
-Layoffs over time
-Layoffs by industry
-Detailed Analysis: Monthly layoff trends.
-Predictive Modeling: Uses historical data to predict future layoffs.
+### **Functions & Workflow**  
+
+- **Data Collection:**  
+  Loads the `layoffs_data.csv` file containing historical layoffs data.
+
+- **Data Cleaning:**  
+  Cleans the data by handling missing values, removing duplicates, and formatting columns for analysis.
+
+- **Exploratory Data Analysis (EDA):**  
+  - **Layoffs over time:** Visualizes the trend of layoffs over the years.  
+  - **Layoffs by industry:** Shows how layoffs are distributed across different industries.
+
+- **Detailed Analysis:**  
+  Provides insights on **monthly layoffs trends**, helping to identify patterns and anomalies.
+
+- **Predictive Modeling:**  
+  Trains a machine learning model using historical layoff data and predicts potential future layoffs.
+
 
 ### **Future Enhancements**
 Deploy as an interactive dashboard
