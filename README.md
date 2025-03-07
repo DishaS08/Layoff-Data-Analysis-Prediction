@@ -13,22 +13,25 @@ This project analyzes **layoff trends from 2020-2023**, providing insights into 
 ### **Project Structure**  
 /layoff_analysis_project │── layoffs_data.csv # Dataset │── main.py # Main execution script │── data_collection.py # Load dataset │── data_cleaning.py # Data preprocessing functions │── eda.py # EDA and visualizations │── detailed_analysis.py # Monthly layoffs analysis │── predictive_modeling.py # ML model training & predictions │── structure.py # Structure of the data and functions │── README.md
 
-
-Installation & Setup
-Clone the repository:
 bash
+Copy
+Edit
 
-git clone https://github.com/yourusername/layoff-analysis.git 
-cd layoff-analysis
+### **Installation & Setup**  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/layoff-analysis.git
+   cd layoff-analysis
 
 Install dependencies:
 bash
+
 pip install pandas matplotlib scikit-learn seaborn
 
 Run the analysis:
 bash
-python main.py
 
+python main.py
 Functions & Workflow
 Data Collection: Loads layoffs_data.csv.
 Data Cleaning: Handles missing values and formats data.
@@ -45,3 +48,5 @@ Integrate real-time layoff data sources
 
 Contributions & Feedback
 Feel free to contribute, report issues, or suggest improvements! 🚀
+
+
