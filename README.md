@@ -25,13 +25,16 @@ Edit
 
 Install dependencies:
 bash
-
+Copy
+Edit
 pip install pandas matplotlib scikit-learn seaborn
 
 Run the analysis:
 bash
-
+Copy
+Edit
 python main.py
+
 Functions & Workflow
 Data Collection: Loads layoffs_data.csv.
 Data Cleaning: Handles missing values and formats data.
