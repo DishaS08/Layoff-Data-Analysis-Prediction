@@ -13,15 +13,16 @@ This project analyzes **layoff trends from 2020-2023**, providing insights into 
 ### **Project Structure**  
 
 /layoff_analysis_project
-│── layoffs_data.csv # Dataset
-│── main.py # Main execution script
-│── data_collection.py # Load dataset
-│── data_cleaning.py # Data preprocessing functions
-│── eda.py # EDA and visualizations
-│── detailed_analysis.py # Monthly layoffs analysis
-│── predictive_modeling.py # ML model training & predictions
-│── structure.py # Structure of the data and functions
-│── README.md # Project documentation
+│── layoffs_data.csv            # Dataset
+│── main.py                     # Main execution script
+│── data_collection.py          # Load dataset
+│── data_cleaning.py            # Data preprocessing functions
+│── eda.py                       # EDA and visualizations
+│── detailed_analysis.py        # Monthly layoffs analysis
+│── predictive_modeling.py      # ML model training & predictions
+│── structure.py                # Structure of the data and functions
+│── README.md                   # Project documentation
+
 
 
 ### **Installation & Setup**  
