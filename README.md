@@ -1,28 +1,17 @@
-Layoff Data Analysis & Prediction
-Overview
-This project analyzes layoff trends from 2020-2023, providing insights into layoffs over time, industry-specific trends, and monthly patterns. It also includes a predictive model to forecast layoffs.
+# **Layoff Data Analysis & Prediction**  
 
-Features
-✅ Loads and cleans layoff data
-✅ Exploratory Data Analysis (EDA)
-✅ Industry-wise and time-based layoff trends
-✅ Monthly layoff analysis
-✅ Predictive modeling using Machine Learning
+### **Overview**  
+This project analyzes **layoff trends from 2020-2023**, providing insights into layoffs over time, industry-specific trends, and monthly patterns. It also includes a predictive model to forecast layoffs.  
 
-Project Structure:
-bash
+### **Features**  
+- ✅ Loads and cleans layoff data  
+- ✅ Exploratory Data Analysis (EDA)  
+- ✅ Industry-wise and time-based layoff trends  
+- ✅ Monthly layoff analysis  
+- ✅ Predictive modeling using Machine Learning  
 
-/layoff_analysis_project
-│── layoffs_data.csv                # Dataset
-│── main.py                          # Main execution script
-│── data_collection.py               # Load dataset
-│── data_cleaning.py                 # Data preprocessing functions
-│── eda.py                            # EDA and visualizations
-│── detailed_analysis.py              # Monthly layoffs analysis
-│── predictive_modeling.py            # ML model training & predictions
-│── structure.py                     # Structure of the data and functions
-│── README.md
-
+### **Project Structure**  
+/layoff_analysis_project │── layoffs_data.csv # Dataset │── main.py # Main execution script │── data_collection.py # Load dataset │── data_cleaning.py # Data preprocessing functions │── eda.py # EDA and visualizations │── detailed_analysis.py # Monthly layoffs analysis │── predictive_modeling.py # ML model training & predictions │── structure.py # Structure of the data and functions │── README.md
 
 
 Installation & Setup
