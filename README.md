@@ -23,19 +23,16 @@ Edit
    git clone https://github.com/yourusername/layoff-analysis.git
    cd layoff-analysis
 
-Install dependencies:
-bash
-Copy
-Edit
-pip install pandas matplotlib scikit-learn seaborn
+2. Install dependencies:
+    ```bash
+    pip install pandas matplotlib scikit-learn seaborn
 
-Run the analysis:
-bash
-Copy
-Edit
-python main.py
 
-Functions & Workflow
+3. Run the analysis:
+   ```bash
+   python main.py
+
+### **Functions & Workflow**
 Data Collection: Loads layoffs_data.csv.
 Data Cleaning: Handles missing values and formats data.
 EDA:
@@ -44,12 +41,14 @@ Layoffs by industry
 Detailed Analysis: Monthly layoff trends.
 Predictive Modeling: Uses historical data to predict future layoffs.
 
-Future Enhancements
+### **Future Enhancements**
 Deploy as an interactive dashboard
 Use deep learning for better predictions
 Integrate real-time layoff data sources
 
-Contributions & Feedback
+### **Contributions & Feedback**
 Feel free to contribute, report issues, or suggest improvements! 🚀
+
+
 
 
